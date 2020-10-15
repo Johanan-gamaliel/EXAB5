@@ -1,0 +1,77 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>Formulario de registro</title>
+<link rel="stylesheet"type="text/css"href="styles.css"/>
+<link rel="stylesheet"type="text/css"href="styles.css"/>	
+</head>
+<body>
+<header> <img src="deliciosolandia.jpg" widh="40" height="50">el palacio de lo delicioso</header> <br>
+<center>
+<hr>
+<a href="principal.html" class="greenlink">
+PRINCIPAL
+</a>
+&nbsp;
+<a href="aboutme.html" class="greenlink">
+ACERCA DE MI 
+</a>
+&nbsp;
+<a href="services and products.html" class="greenlink">
+SERVICIOS Y PRODUCTOS
+</a>
+&nbsp;
+<a href="contact.html" class="greenlink">
+CONTACTAME 
+</a>
+&nbsp;
+<a href="registro.html" class="greenlink">
+REGISTRO
+</a>
+<hr>
+</center>
+<div class="group">
+<form action="registro.php" method="post">
+<h2><em>Formulario de registro</em></h2>
+<p>
+<label for="dpi">Dpi <span></span></label>
+<input type="text" name="dpi" class="form-input" required/>
+<br>
+<label for="nombre">Nombre <span></span></label>
+<input type="text" name="nombre" class="form-input" required/>
+<br>
+<label for="apellido">Apellido <span></span></label>
+<input type="text" name="apellido" class="form-input" required/>
+<br>
+<label for="celular">Celular #1 <span></span></label>
+<input type="text" name="Celular" class="form-input" required/>
+<br>
+<label for="celular2">Celular #2 <span></span></label>
+<input type="text" name="Celular2" class="form-input" />
+<br>
+<label for="correo">Correo electronico<span></span></label>
+<input type="text" name="correo" class="form-input" required/>
+<br>
+<label for="Residencia">Residencia<span></span></label>
+<input type="text" name="Residencia" class="form-input" required/>
+<br>
+<label for="nit">Nit <span></span></label>
+<input type="text" name="Nit" class="form-input" required/>
+<br>
+<h2>Seleccione la forma de Pago</h2>
+<p>Efectivo<input type="radio" name="#" value="#"></p>
+<p>credito<input type="radio" name="#" value="#"></p>
+<p>Tarjeta<input type="radio" name="#" value="#"></p>
+<p>
+<label for="Numero de tarjeta">Numero de tarjeta <span></span></label>
+<input type="text" name="Numero de tarjeta" class="form-input" />
+<br>
+<p>
+<label for="CVV">Cvv <span></span></label>
+<input type="text" name="CVV" class="form-input" />
+<br>
+</p>
+<input classe="form-btn" name="submit" type="submit" value="Enviar datos"/>
+<input type="reset"  value="Borrar" />
+</body>
+</html>
